@@ -297,7 +297,7 @@
             <h1 class="contact-us">Contact Me</h1>
             <h3 class="contact-sub">Questions, Thoughts, or just want to say hello?</h3>
             <div class="form-container">
-              <form class="form" >
+              <form class="form" id = "contactform" >
                 <div class="formfield-container">
                   <input class="formfield" 
                   type="text"
@@ -397,14 +397,14 @@ document.getElementById("Submit").addEventListener("click", function(event) {
           
           emailjs.send('service_wxmfhwl', 'template_l0gexpm', templateParams)
     .then(function(response) {
-        alert('Message Sent: Successfully!\n Thank you !' );
+        alert('Message Sent: Successfully!\n Thank you  ${name}!' );
     }, function(error) {
         console.error('Error:', error);
         alert('Message Failed: ' + JSON.stringify(error));
     });
 
         });
-         document.getElementById("contact").reset();
+         document.getElementById("contactform").reset();
       </script>
 
      
