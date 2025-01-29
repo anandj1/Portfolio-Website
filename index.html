@@ -397,7 +397,7 @@ document.getElementById("Submit").addEventListener("click", function(event) {
           
           emailjs.send('service_wxmfhwl', 'template_l0gexpm', templateParams)
     .then(function(response) {
-        alert('Message Sent: Successfully!\n Thank you  ${name}!' );
+        alert('Message Sent: Successfully!\n Thank you '+ name );
     }, function(error) {
         console.error('Error:', error);
         alert('Message Failed: ' + JSON.stringify(error));
