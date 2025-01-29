@@ -370,6 +370,9 @@ button:hover{
   .proj-card:hover::before{
     transform: scaleX(1);
   }
+  #proj0{
+    background-image: url(./projects/project0.png);
+  }
   #proj2{
     background-image: url(./projects/Project2.png);
   }
