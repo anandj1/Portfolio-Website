@@ -374,13 +374,16 @@ button:hover{
     background-image: url(./projects/project0.png);
   }
   #proj2{
-    background-image: url(./projects/Project2.png);
+    background-image: url(./projects/Project4.png);
   }
   #proj3{
-    background-image: url(./projects/Project3.png);
+    background-image: url(./projects/Project05.png);
   }
   #proj4{
-    background-image: url(./projects/Project4.png);
+    background-image: url(./projects/Project5.png);
+  }
+  #proj5{
+    background-image: url(./projects/Project5.png);
   }
   .proj-num{
     position: absolute;
@@ -1084,10 +1087,14 @@ button:hover{
     
   }
   #proj3{
-    background-image: url(./projects/Project3.png);
+    background-image: url(./projects/Project05.png);
   }
   #proj4{
+    background-image: url(./projects/Project3.png);
+  }
+  #proj6{
     background-image: url(./projects/Project4.png);
+
   }
   .proj-num{
     position: absolute;
